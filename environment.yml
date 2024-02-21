@@ -12,10 +12,14 @@ dependencies:
   - xarray
   - pytest
   - seaborn
-  - geopandas
   - statsmodels
   - pip
   - scikit-learn
   - ruff
+  - pyproj
+  - fiona
+  - pyogrio
+  - rtree
   - pip:
       - cftime
+      - geopandas
