@@ -17,3 +17,5 @@ dependencies:
   - pip
   - scikit-learn
   - ruff
+  - pip:
+      - cftime
