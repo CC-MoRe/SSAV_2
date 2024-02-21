@@ -1,0 +1,19 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - shapely
+  - requests
+  - netcdf4
+  - xarray
+  - pytest
+  - seaborn
+  - geopandas
+  - statsmodels
+  - pip
+  - scikit-learn
+  - ruff

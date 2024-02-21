@@ -1,0 +1,43 @@
+{
+	"name": "Modellieren",
+	"context": "..",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"njpwerner.autodocstring",
+				"oderwat.indent-rainbow",
+				"charliermarsh.ruff",
+				"tamasfe.even-better-toml",
+			],
+			"settings": {
+				"editor.formatOnSave": true,
+				"[latex]": {
+					"editor.wordWrap": "on",
+					"editor.formatOnSave": false,
+				},
+				"[python]": {
+					"editor.defaultFormatter": "charliermarsh.ruff",
+				},
+				"python.pythonPath": "/opt/conda/bin/python",
+				"autoDocstring.docstringFormat": "google",
+				"cSpell.maxNumberOfProblems": 500,
+				"python.dataScience.alwaysTrustNotebooks": true,
+				"jupyter.alwaysTrustNotebooks": true,
+				"jupyter.jupyterCommandLineArguments": [
+					"--allow-root"
+				],
+				"python.defaultInterpreterPath": "/opt/conda/bin/python",
+				"python.analysis.typeCheckingMode": "basic",
+				"python.analysis.inlayHints.functionReturnTypes": true,
+				"python.analysis.extraPaths": [
+					"${localWorkspaceFolder}",
+					"/opt/conda/pkgs"
+				],
+				"notebook.formatOnSave.enabled": true
+			},
+		},
+	},
+}
