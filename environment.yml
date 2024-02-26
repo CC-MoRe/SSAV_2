@@ -16,10 +16,8 @@ dependencies:
   - pip
   - scikit-learn
   - ruff
-  - pyproj
-  - fiona
-  - pyogrio
-  - rtree
   - pip:
       - cftime
-      - geopandas
+      - cartopy
+      - nc-time-axis
+      - netCDF4
