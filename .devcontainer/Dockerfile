@@ -1,1 +1,1 @@
-FROM ghcr.io/tgoelles/ssav_2:main
+FROM ghcr.io/cc-more/ssav_2:main
