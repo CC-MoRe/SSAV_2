@@ -16,8 +16,11 @@ dependencies:
   - pip
   - scikit-learn
   - ruff
+  - geopandas
   - pip:
       - cftime
       - cartopy
       - nc-time-axis
       - netCDF4
+      - geopy
+      - matplotlib-scalebar
