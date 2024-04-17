@@ -21,3 +21,6 @@ dependencies:
       - cartopy
       - nc-time-axis
       - netCDF4
+      - geopandas
+      - geopy
+      - matplotlib-scalebar
