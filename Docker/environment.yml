@@ -23,3 +23,5 @@ dependencies:
   - pip:
       - cftime
       - geopandas
+      - geopy
+      - matplotlib-scalebar
